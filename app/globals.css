@@ -5,3 +5,37 @@
 html {
   scroll-behavior: smooth;
 }
+
+:root {
+  /* Mode sombre (par défaut) */
+  --color-background: 10 14 23;        /* #0A0E17 */
+  --color-background-soft: 15 20 32;   /* #0F1420 */
+  --color-background-elevated: 22 28 44; /* #161C2C */
+
+  --color-foreground: 244 246 250;     /* #F4F6FA */
+  --color-foreground-muted: 148 163 184; /* #94A3B8 */
+  --color-foreground-subtle: 92 107 130; /* #5C6B82 */
+
+  --color-accent: 34 211 238;          /* #22D3EE */
+  --color-accent-hover: 103 232 249;   /* #67E8F9 */
+  --color-accent-muted: 14 116 144;    /* #0E7490 */
+
+  --color-border: 30 37 54;            /* #1E2536 */
+}
+
+.light {
+  /* Mode clair — bleu profond, cohérent avec ton accent électrique */
+  --color-background: 255 255 255;        /* blanc pur */
+  --color-background-soft: 246 248 251;   /* #F6F8FB */
+  --color-background-elevated: 237 241 247; /* #EDF1F7 */
+
+  --color-foreground: 15 23 42;           /* #0F172A bleu très foncé */
+  --color-foreground-muted: 71 85 105;    /* #475569 */
+  --color-foreground-subtle: 148 163 184; /* #94A3B8 */
+
+  --color-accent: 8 145 178;              /* #0891B2 cyan plus foncé, lisible sur blanc */
+  --color-accent-hover: 14 116 144;       /* #0E7490 */
+  --color-accent-muted: 165 243 252;      /* #A5F3FC */
+
+  --color-border: 226 232 240;            /* #E2E8F0 */
+}

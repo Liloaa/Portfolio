@@ -1,7 +1,7 @@
-// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: ["class", '[class~="light"]'], // on inverse : "light" retire le mode sombre
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -10,30 +10,30 @@ const config: Config = {
     extend: {
       colors: {
         background: {
-          DEFAULT: "#0A0E17",   // fond principal, presque noir-bleu
-          soft: "#0F1420",      // fond des cartes/sections alternées
-          elevated: "#161C2C",  // fond des éléments en relief (cartes projet)
+          DEFAULT: "rgb(var(--color-background) / <alpha-value>)",
+          soft: "rgb(var(--color-background-soft) / <alpha-value>)",
+          elevated: "rgb(var(--color-background-elevated) / <alpha-value>)",
         },
         foreground: {
-          DEFAULT: "#F4F6FA",   // texte principal (titres)
-          muted: "#94A3B8",     // texte secondaire (descriptions)
-          subtle: "#5C6B82",    // texte tertiaire (labels, dates)
+          DEFAULT: "rgb(var(--color-foreground) / <alpha-value>)",
+          muted: "rgb(var(--color-foreground-muted) / <alpha-value>)",
+          subtle: "rgb(var(--color-foreground-subtle) / <alpha-value>)",
         },
         accent: {
-          DEFAULT: "#22D3EE",   // cyan électrique — CTA, liens, highlights
-          hover: "#67E8F9",     // survol
-          muted: "#0E7490",     // version assombrie (bordures, icônes discrètes)
+          DEFAULT: "rgb(var(--color-accent) / <alpha-value>)",
+          hover: "rgb(var(--color-accent-hover) / <alpha-value>)",
+          muted: "rgb(var(--color-accent-muted) / <alpha-value>)",
         },
         border: {
-          DEFAULT: "#1E2536",
+          DEFAULT: "rgb(var(--color-border) / <alpha-value>)",
         },
       },
       fontFamily: {
-        display: ["var(--font-display)", "sans-serif"], // titres impactants
-        body: ["var(--font-body)", "sans-serif"],        // texte courant
+        display: ["var(--font-display)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       fontSize: {
-        "hero": ["clamp(2.5rem, 6vw, 5.5rem)", { lineHeight: "1.05", letterSpacing: "-0.02em" }],
+        hero: ["clamp(2.5rem, 6vw, 5.5rem)", { lineHeight: "1.05", letterSpacing: "-0.02em" }],
       },
       maxWidth: {
         container: "1200px",
