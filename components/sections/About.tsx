@@ -46,7 +46,7 @@ export default function About() {
                   alt="Portrait"
                   fill
                   sizes="144px"
-                  className="object-cover grayscale contrast-110 hover:grayscale-0 transition-all duration-500"
+                  className="object-cover transition-all duration-500"
                 />
               </div>
             </motion.div>
