@@ -18,7 +18,7 @@ export default function Footer() {
             <FiGithub className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com/in/Luciana Rzk"
+            href="https://www.linkedin.com/in/luciana-rzk-186105315"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground-subtle hover:text-accent transition-colors duration-200"
