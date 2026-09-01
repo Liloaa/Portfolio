@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-border">
       <div className="max-w-container mx-auto px-6 md:px-10 py-8 flex items-center justify-between">
         <p className="text-foreground-subtle text-sm">
-          © 2026 Mahatoky Luciana RAZAKA — Informatique générale
+          © 2026 RAZAKA Mahatoky Luciana — Informatique générale
         </p>
 
         <div className="flex items-center gap-4">

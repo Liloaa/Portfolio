@@ -45,7 +45,7 @@ export default function Hero() {
             variants={item}
             className="font-display font-medium text-hero text-foreground max-w-4xl"
           >
-            Mahatoky Luciana RAZAKA — je conçois des solutions utiles, de l&apos;idée au code.
+            RAZAKA Mahatoky Luciana — je conçois des solutions utiles, de l&apos;idée au code.
           </motion.h1>
 
           {/* Sous-texte */}
