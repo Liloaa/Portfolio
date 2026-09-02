@@ -21,13 +21,13 @@ export const projects: Project[] = [
     number: "02",
     title: "FraudDetection",
     description:
-      "Exploration d'approches de détection de fraude, entre préparation des données et lecture de signaux utiles.",
+      "Système de détection automatique de transactions bancaires suspectes, avec analyse par machine learning, alertes en temps réel et rapports de conformité.",
     longDescription: [
-      "Ce projet explore différentes approches pour détecter des schémas de fraude à partir de jeux de données transactionnelles.",
-      "L'accent a été mis sur la préparation et le nettoyage des données, une étape souvent sous-estimée mais déterminante pour la fiabilité des résultats.",
+      "FraudDetection est une application web de détection de fraude bancaire développée dans le cadre d'un projet universitaire en groupe de 4 personnes, en L3 Informatique Générale à l'ENI de Fianarantsoa.",
+      "L'application analyse automatiquement les transactions bancaires pour identifier les comportements suspects : montants inhabituels par rapport à l'historique du compte, localisation incohérente, ou fréquence anormale. Lorsqu'une fraude potentielle est détectée, une alerte est générée instantanément et poussée en temps réel sur le dashboard de l'équipe de conformité via SignalR. Des rapports sont également produits pour le suivi et l'audit.",
     ],
-    role: "Analyse exploratoire des données, préparation du dataset, et implémentation des premiers modèles de détection.",
-    tech: [".NET", "ASP.NET Core","ML.NET","Analyse de données", "PostgreSQL"],
+    role: "Développement du backend et de la couche API : conception du schéma de base de données, configuration d'Entity Framework Core avec PostgreSQL, implémentation des endpoints REST (transactions, filtres, import CSV), seed data, et mise en place de l'architecture Feature Folders partagée entre les membres de l'équipe.",
+    tech: ["ASP.NET Core", "ML.NET", "PostgreSQL", "SignalR", "C#", "Entity Framework"],
     githubUrl: "https://github.com/Liloaa/FraudDetection",
   },
   {

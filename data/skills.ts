@@ -11,11 +11,30 @@ import { IconType } from "react-icons";
 export const skillCategories = [
   {
     title: "Développement",
-    skills: ["Java", "Python", "JavaScript", "Flutter", "SQL", "Git"],
+    skills: [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C#",
+      "PHP",
+      "Flutter",
+      "SQL",
+      "Git",
+    ],
+  },
+  {
+    title: "Frameworks",
+    skills: ["Angular", "Django", "ASP.NET Core", "Vue.js"],
   },
   {
     title: "Données",
-    skills: ["Analyse exploratoire", "Modélisation", "Visualisation", "Qualité des données"],
+    skills: [
+      "PostgreSQL",
+      "Analyse exploratoire",
+      "Modélisation",
+      "Visualisation",
+      "Qualité des données",
+    ],
   },
   {
     title: "Méthode",
