@@ -3,8 +3,14 @@ import {
   SiReact,
   SiFlutter,
   SiJavascript,
+  SiTypescript,
   SiPostgresql,
   SiGit,
+  SiDjango,
+  SiAngular,
+  SiPhp,
+  SiSharp,
+  SiVuedotjs,
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -52,6 +58,12 @@ export const techIcons: TechIcon[] = [
   { name: "React", icon: SiReact },
   { name: "Flutter", icon: SiFlutter },
   { name: "JavaScript", icon: SiJavascript },
+  { name: "TypeScript", icon: SiTypescript },
   { name: "PostgreSQL", icon: SiPostgresql },
   { name: "Git", icon: SiGit },
+  { name: "Django", icon: SiDjango },
+  { name: "Angular", icon: SiAngular },
+  { name: "Vue.js", icon: SiVuedotjs },
+  { name: "PHP", icon: SiPhp },
+  { name: "C#", icon: SiSharp },
 ];
